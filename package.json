@@ -1,0 +1,36 @@
+{
+  "name": "gulp-str-4replace",
+  "version": "0.0.1",
+  "description": "replace var in html",
+  "main": "index.js",
+  "repository": "greenshoal/gulp-str-4replace",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulpplugin",
+    "srt",
+    "revision",
+    "version",
+    "replace",
+    "var"
+  ],
+  "author": {
+    "name": "LI Senlin",
+    "email": "green_shoal@163.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "event-stream": "^3.2.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-rev": "^6.0.1",
+    "mocha": "^2.3.4"
+  }
+}
